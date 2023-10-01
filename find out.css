@@ -119,6 +119,7 @@ nav ul li:hover > ul { display: block; }
     margin-right: 15rem;
     margin-bottom: 3rem;
 }
+
 .home .btn {
     background-color: darkred;
     display: block;
@@ -203,7 +204,8 @@ nav ul li:hover > ul { display: block; }
 }
 @media (max-width:1176px) {
     .home {
-        background-position: left;
+        background-size: cover;
+        background-position: center center;
         justify-content: center;
         text-align: center;
     }
@@ -223,6 +225,7 @@ nav ul li:hover > ul { display: block; }
     .home .find {
         margin-top: 11rem;
         text-align: left;
+        margin-bottom: 3rem;
     }
 
 }
