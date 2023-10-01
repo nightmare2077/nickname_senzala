@@ -52,7 +52,9 @@ header {
     border-bottom: var(--border);
     z-index: 1000;
 }
-
+header nav {
+    margin-right: 3rem;
+}
 header nav ul li {
     position: relative;
     float: left;
@@ -87,6 +89,10 @@ nav ul li ul li:hover {
     color: darkred;
 }
 nav ul li:hover > ul { display: block; }
+
+.menu-btn {
+    display: none;
+}
 
 .heading {
     text-align: center;
@@ -175,4 +181,35 @@ background-color: rgb(71, 1, 1);
 }
 .footer .credit span {
     color: #cfae81;
+}
+@media (max-width:991px){
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    html {
+        font-size: 85%;
+    }
+    header {
+        padding: 1.5rem 2rem;
+    }
+}
+@media (max-width:1176px) {
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menu-btn {
+        display: inline-block;
+    }
+    .menu-btn ul li {
+        font-size: 3rem;
+    }
+    header nav ul li {
+        display: none;
+    }
 }
