@@ -7,23 +7,23 @@
 	<title>Document</title>
 
 	<link rel="stylesheet" href="basic.css">
-	<script src="" defer></script>
+	<script src="CQ.js" defer></script>
 
 </head>
 <body>
 	<header id="header">
 		<a href="Capoeira Quotes.html" class="logo"><img style="height: 100px; width: auto; margin-left: 30px;" src="https://static.wixstatic.com/media/8e20e3_a7748ace886e4be7a8e491277ec17e36~mv2.png/v1/fill/w_138,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8e20e3_ce47282406f64a23a1014f7f70da3aef.png"></a>
-		<nav>
+		<nav class="navbar">
 			<ul>
 				<li><a href="Capoeira Quotes.html">Home</a></li>
 				<li><a href="#basic">Basic Info</a>
-					<ul>
-						<li><a style="margin-left: 0;" href="mestres.html">Mestres</a></li>
-						<li></li><a style="margin-left: 0;" href="slider.html">Cordas</a></li>
-						<li><a style="margin-left: 0;" href="history.html">History</a></li>
-					</ul>
+				    <ul>
+					    <li><a style="margin-left: 0;" href="mestres.html">Mestres</a></li>
+					    <li><a style="margin-left: 0;" href="slider.html">Cordas</a></li>
+					    <li><a style="margin-left: 0;" href="history.html">History</a></li>
+				    </ul>
 				</li>
-				<li><a href="handbook.html">Handbook</a>
+				<li><a href="#handbook">Handbook</a>
 					<ul>
 						<li><a style="margin-left: 0;" href="instruments.html">Instruments</a></li>
 						<li><a style="margin-left: 0;" href="list_r.html">Rhythms</a></li>
@@ -41,11 +41,23 @@
 						<li><a style="margin-left: 0;" href="media.html">Media</a></li>
 					</ul>
 				</li>
-			    <li><a href="#">About us</a></li>
-			    <li><a style="margin-right: 3rem;" href="contacts.html">Contacts</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#contact">Contacts</a></li>
+		        <li class="menu-btn"><a style="border-bottom: none;"  href="#"><img style="height: 75px; width: auto;" src="https://cdn-icons-png.flaticon.com/512/7543/7543138.png"></a>
+					<ul>
+						<li><a style="margin-left: 0;" href="Capoeira Quotes.html">Home</a></li>
+						<li><a style="margin-left: 0;" href="#basic">Basic Info</a></li>
+						<li><a style="margin-left: 0;" href="#handbook">Handbook</a></li>
+						<li><a style="margin-left: 0;" href="#archi">Archives</a></li>
+						<li><a style="margin-left: 0;" href="#">About us</a></li>
+						<li><a style="margin-left: 0;" href="#contact">Contacts</a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
+
 	</header>
+	<!--header section ends-->
     
     <section class="basic" id="basic">
         <h1 class="heading"><span>Basic</span> Info</h1>
@@ -61,7 +73,7 @@
             <div class="box" style="margin-bottom: 10rem;">
 				<div class="info">
 					<h3>Cordas</h3>
-					<a href="#" class="btn">Learn more...</a>
+					<a href="slider.html" class="btn">Learn more...</a>
 				</div>
                 <img style="width: 50%; height: auto;" src="https://static.wixstatic.com/media/f43efc_9d1e5e867480486ea14a7b2681dd4a3d~mv2.jpg/v1/crop/x_102,y_128,w_1738,h_1147/fill/w_540,h_348,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cordas.jpg">
             </div>
@@ -70,7 +82,7 @@
                 <img style="width: 50%; height: auto;" src="https://capoeiraauckland.files.wordpress.com/2017/04/pierre_verger_capoeira_9.jpg">
 				<div class="info">
 					<h3>History</h3>
-					<a href="#" class="btn">Learn more...</a>
+					<a href="history.html" class="btn">Learn more...</a>
 				</div>
             </div>
     </section>   
