@@ -88,6 +88,10 @@ nav ul li ul li:hover {
 }
 nav ul li:hover > ul { display: block; }
 
+.menu-btn {
+    display: none;
+}
+
 
 .home {
     align-items: center;
