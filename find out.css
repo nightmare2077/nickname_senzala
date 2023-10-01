@@ -119,11 +119,6 @@ nav ul li:hover > ul { display: block; }
     margin-right: 15rem;
     margin-bottom: 3rem;
 }
-.content_2 img {
-    width: 15rem;
-    height: auto;
-    margin-bottom: 3rem;
-}
 .home .btn {
     background-color: darkred;
     display: block;
@@ -191,4 +186,43 @@ nav ul li:hover > ul { display: block; }
 }
 .footer .credit span {
     color: #cfae81;
+}
+@media (max-width:991px){
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    html {
+        font-size: 85%;
+    }
+    header {
+        padding: 1.5rem 2rem;
+    }
+}
+@media (max-width:1176px) {
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    header {
+        padding: 1.5rem 2rem;
+    }
+
+    .menu-btn {
+        display: inline-block;
+    }
+    .menu-btn ul li {
+        font-size: 3rem;
+    }
+    header nav ul li {
+        display: none;
+    }
+    .home .find {
+        margin-top: 11rem;
+        text-align: left;
+    }
+
 }

@@ -488,7 +488,9 @@ header .navbar ul li a:hover {
     header nav ul li {
         display: none;
     }
+
 }
+
 @media (max-width:768px) {
     .home {
         background-position: left;
