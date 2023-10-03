@@ -90,6 +90,12 @@ nav ul li ul li:hover {
 }
 nav ul li:hover > ul { display: block; }
 
+.logo img {
+    height: 100px; 
+    width: auto; 
+    margin-left: 30px;
+}
+
 .menu-btn {
     display: none;
 }
@@ -113,8 +119,8 @@ nav ul li:hover > ul { display: block; }
     align-items: center;
     flex-wrap: wrap;
     background: var(--black);
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin: 4rem;
+    margin-top: 13rem;
 }
 .basic .row .content {
     width: 50%;
@@ -172,6 +178,7 @@ nav ul li:hover > ul { display: block; }
     background: var(--black);
     margin-left: 4rem;
     margin-right: 4rem;
+    margin-bottom: 4rem;
 }
 .handbook .hand img {
     height: auto; 
@@ -309,7 +316,6 @@ nav ul li:hover > ul { display: block; }
     background-color: #916a34;
 }
 
-
 .footer {
     background: var(--bg);
     text-align: center;
@@ -383,6 +389,9 @@ nav ul li:hover > ul { display: block; }
 }
 
 @media (max-width:768px) {
+    .logo img{
+        height: 70px;
+    }
     .home {
         background-position: left;
         justify-content: center;
@@ -546,7 +555,7 @@ nav ul li:hover > ul { display: block; }
 
     .heading {
         margin-left: 0.5rem;
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .basic {
         margin-top: 14rem;
@@ -600,7 +609,7 @@ nav ul li:hover > ul { display: block; }
     .footer {
         margin-top: 3rem;
         margin-bottom: 2rem;
-        margin-left: 3rem;
+        margin-left: 0.5rem;
     }
 
 

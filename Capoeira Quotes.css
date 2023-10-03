@@ -570,6 +570,9 @@ header .navbar ul li a:hover {
     .archi .arc .content p {
         font-size: 1.8rem;
     }
+    .contact .cont {
+        background: var(--bg);
+    }
 
     .contact .cont .map {
         height: 600px;
