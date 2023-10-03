@@ -519,6 +519,7 @@ header .navbar ul li a:hover {
         margin-top: 10rem;
         margin-left: 3rem;
         margin-right: 4rem;
+        margin-bottom: 2rem;
 
     }
     .home .content h3 {
@@ -585,40 +586,76 @@ header .navbar ul li a:hover {
     }
 }
 @media (max-width:375px) {
+    .heading {
+        margin-left: 5rem;
+        font-size: 3.8rem;
+    }
+    .basic .row {
+        margin-left: 5.5rem;
+        width: fit-content;     
+    }
     .basic .row img {
         width: 305px;
     }
     .basic .row .content {
-        width: 200%;
         margin: 1.5rem;
         text-align: justify;
+        width: fit-content;
+    }
+    .basic .row .content p {
+        font-size: 1.8rem;
     }
     .handbook .hand img {
         width: 305px;
     }
+    .handbook .hand {
+        margin-left: 5.5rem;
+        width: fit-content;
+    }
     .handbook .hand .content {
-        width: 200%;
         margin: 1.5rem;
         text-align: justify;
+        width: fit-content;
+    }
+    .handbook .hand .content p {
+        font-size: 1.8rem;
     }
     .archi .arc img {
         width: 305px;
         height: auto;
     }
+    .archi .arc {
+        margin-left: 5.5rem;
+        width: fit-content;
+    }
+    .archi .arc .content p {
+        font-size: 1.8rem;
+    }
     .archi .arc .content {
-        width: 200%;
         margin: 1.5rem;
         text-align: justify;
+        width: fit-content;
+    }
+    .contact .cont {
+        background-color: var(--bg);
     }
     .contact .cont .map {
         height: 600px;
-        width: 50%;
+        width: 60%;
         object-fit: cover;
-        margin-right: 50%;
+        margin-right: 80%;
+    }
+    .contact .cont form {
+        flex: 1 1 45rem;
+        padding: 5rem 2rem;
+        text-align: center;
+        position: absolute;
+        margin-left: 65%;
     }
     .footer {
         margin-top: 3rem;
         margin-bottom: 2rem;
+        margin-left: 5.5rem;
     }
 }
 @media (max-width:320px) {

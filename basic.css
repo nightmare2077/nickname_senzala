@@ -401,81 +401,136 @@ nav ul li:hover > ul { display: block; }
 
 @media (max-width:425px) {
     .home {
-        background-position: left;
+        background-position: center;
         justify-content: center;
         text-align: center;
+        width: min-content;
     }
     .home .content {
-        margin-right: 3rem;
+        margin-top: 10rem;
+        margin-left: 3rem;
+        margin-right: 4rem;
+        margin-bottom: 2rem;
+
     }
     .home .content h3 {
         font-size: 4.5rem;
+        
     }
     .home .content p {
         font-size: 1.5rem;
     }
-
-    .basic .row .content {
-        width: 200%;
-        margin: 1.5rem;
-        text-align: justify;
+    .basic {
+        margin-top: 14rem;
     }
-    .handbook .hand .content {
-        width: 200%;
+    .heading {
+        margin-left: 2rem;
+    }
+    .basic .row {
+        margin-left: 3rem;
+        width: fit-content;
+        
+    }
+    .basic .row .content {
         margin: 1.5rem;
         text-align: justify;
+        width: fit-content;
+    }
+    .basic .row .content p {
+        font-size: 1.8rem;
+    }
+    .handbook .hand {
+        margin-left: 3rem;
+        width: fit-content;
+    }
+    .handbook .hand .content{
+        margin: 1.5rem;
+        text-align: justify;
+        width: fit-content;
+    }
+    .handbook .hand .content p {
+        font-size: 1.8rem;
+    }
+
+    .archi .arc {
+        margin-left: 3rem;
+        width: fit-content; 
     }
     .archi .arc .content {
-        width: 200%;
         margin: 1.5rem;
         text-align: justify;
+        width: fit-content;
     }
-    .contact .cont .map {
-        height: 600px;
-        width: 50%;
-        object-fit: cover;
-        margin-right: 50%;
+    .archi .arc .content p {
+        font-size: 1.8rem;
     }
+
     .footer {
         margin-top: 3rem;
         margin-bottom: 2rem;
     }
+    .footer .links {
+        display: none;
+    }
 }
 @media (max-width:375px) {
+    .heading {
+        margin-left: 1rem;
+        font-size: 3.8rem;
+    }
+    .basic {
+        margin-top: 14rem;
+    }
+    .basic .row {
+        margin-left: 2.5rem;
+        width: fit-content;     
+    }
     .basic .row img {
         width: 305px;
     }
     .basic .row .content {
-        width: 200%;
         margin: 1.5rem;
         text-align: justify;
+        width: fit-content;
+    }
+    .basic .row .content p {
+        font-size: 1.8rem;
     }
     .handbook .hand img {
         width: 305px;
     }
+    .handbook .hand {
+        margin-left: 2.5rem;
+        width: fit-content;
+    }
     .handbook .hand .content {
-        width: 200%;
         margin: 1.5rem;
         text-align: justify;
+        width: fit-content;
+    }
+    .handbook .hand .content p {
+        font-size: 1.8rem;
     }
     .archi .arc img {
         width: 305px;
         height: auto;
     }
+    .archi .arc {
+        margin-left: 2.5rem;
+        width: fit-content;
+    }
+    .archi .arc .content p {
+        font-size: 1.8rem;
+    }
     .archi .arc .content {
-        width: 200%;
         margin: 1.5rem;
         text-align: justify;
-    }
-    .contact .cont .map {
-        height: 600px;
-        width: 50%;
-        object-fit: cover;
-        margin-right: 50%;
+        width: fit-content;
     }
     .footer {
         margin-top: 3rem;
         margin-bottom: 2rem;
+        margin-left: 1rem;
     }
 }
 @media (max-width:320px) {
@@ -488,4 +543,65 @@ nav ul li:hover > ul { display: block; }
     .archi .arc img {
         width: 255px;
     }
+
+    .heading {
+        margin-left: 0.5rem;
+        font-size: 3.5rem;
+    }
+    .basic {
+        margin-top: 14rem;
+    }
+    .basic .row {
+        margin-left: 0.5rem;
+        width: fit-content;     
+    }
+    .basic .row img {
+        width: 305px;
+    }
+    .basic .row .content {
+        margin: 1.5rem;
+        text-align: justify;
+        width: fit-content;
+    }
+    .basic .row .content p {
+        font-size: 1.8rem;
+    }
+    .handbook .hand img {
+        width: 305px;
+    }
+    .handbook .hand {
+        margin-left: 0.5rem;
+        width: fit-content;
+    }
+    .handbook .hand .content {
+        margin: 1.5rem;
+        text-align: justify;
+        width: fit-content;
+    }
+    .handbook .hand .content p {
+        font-size: 1.8rem;
+    }
+    .archi .arc img {
+        width: 305px;
+        height: auto;
+    }
+    .archi .arc {
+        margin-left: 0.5rem;
+        width: fit-content;
+    }
+    .archi .arc .content p {
+        font-size: 1.8rem;
+    }
+    .archi .arc .content {
+        margin: 1.5rem;
+        text-align: justify;
+        width: fit-content;
+    }
+    .footer {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        margin-left: 3rem;
+    }
+
+
 }
