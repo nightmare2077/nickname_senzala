@@ -1,6 +1,6 @@
 body {
     height: auto;
-    background: url(https://phonoteka.org/uploads/posts/2022-02/1643931089_6-phonoteka-org-p-oboi-na-rabochii-stol-serii-fon-6.jpg);
+    background: var(--bg);
     background-repeat: no-repeat;
     background-size: cover;
 	background-position: center center;
@@ -108,40 +108,207 @@ nav ul li:hover > ul { display: block; }
     text-transform: uppercase;
 }
 
-.box {
-    display: flex;
+.basic .row {
+    display: flex;  
     align-items: center;
-    color: #eee;
+    flex-wrap: wrap;
+    background: var(--black);
     margin-left: 4rem;
     margin-right: 4rem;
 }
-.box .info {
+.basic .row .content {
     width: 50%;
-}
-.box .info h3 {
-    font-size: 3.5rem;
-    font-weight: 500;
-    text-align: center;
+    text-align: left;
+    height: auto;
+    color: #fff;
+    top: 0;
+    background: var(--black);
+    margin-left: 4rem;
 }
 
-.box .btn {
-    background-color: darkred;
+.basic .row .content h3 {
+    font-size: 2.7rem;
+    color: #cfae81;
+    font-weight: 500;
+}
+.basic .row .content p {
+    font-size: 1.2rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-weight: 200;
+}
+.basic .row img {
+    height: auto; 
+    max-width: 350px;
+}
+
+.row .btn {
+    background-color: #be9965;
+    ;
     display: block;
-    width: auto;
+    width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     color: #eee;
-    font-size: 1.7rem;
+    font-size: 2rem;
     text-decoration: none;
     text-align: center;
-    transition: color 0.3s linear;
-    margin-top: 0.6rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
 }
-.box .btn:hover {
-color: goldenrod;
-background-color: rgb(71, 1, 1);
+.row .btn:hover {
+    background-color: #916a34;
 }
+
+
+
+.heading {
+    color: var(--main-color);
+    text-shadow: -1px -1px 0 rgb(240, 183, 27), 1px -1px 0 rgb(240, 183, 27), -1px 1px 0 rgb(240, 183, 27), 1px 1px 0 rgb(240, 183, 27);
+    text-transform: uppercase;
+}
+.handbook .hand {
+    display: flex;  
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--black);
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.handbook .hand img {
+    height: auto; 
+    width: 350px;
+}
+.handbook .hand .content {
+    width: 50%;
+    text-align: left;
+    height: auto;
+    color: #fff;
+    top: 0;
+    background: var(--black);
+    margin-left: 4rem;
+}
+
+.handbook .hand .content h3 {
+    font-size: 2.7rem;
+    color: #cfae81;
+    font-weight: 500;
+}
+.handbook .hand .content p {
+    font-size: 1.2rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-weight: 200;
+}
+.hand .btn {
+    background-color: #be9965;
+    ;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #eee;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+.hand .btn:hover {
+    background-color: #916a34;
+}
+
+.handbook .hand {
+    display: flex;  
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--black);
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.handbook .hand .content {
+    width: 50%;
+    text-align: left;
+    height: auto;
+    color: #fff;
+    top: 0;
+    background: var(--black);
+    margin-left: 4rem;
+}
+
+.handbook .hand .content h3 {
+    font-size: 2.7rem;
+    color: #cfae81;
+    font-weight: 500;
+}
+.handbook .hand .content p {
+    font-size: 1.2rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-weight: 200;
+}
+.hand .btn {
+    background-color: #be9965;
+    ;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #eee;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+.hand .btn:hover {
+    background-color: #916a34;
+}
+
+
+.archi .arc {
+    display: flex;  
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--black);
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.archi .arc img {
+    height: auto;
+    width: 350px;
+}
+.archi .arc .content {
+    width: 50%;
+    text-align: left;
+    height: auto;
+    color: #fff;
+    top: 0;
+    background: var(--black);
+    margin-left: 4rem;
+}
+
+.archi .arc .content h3 {
+    font-size: 2.7rem;
+    color: #cfae81;
+    font-weight: 500;
+}
+.archi .arc .content p {
+    font-size: 1.2rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-weight: 200;
+}
+.arc .btn {
+    background-color: #be9965;
+    ;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #eee;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+.arc .btn:hover {
+    background-color: #916a34;
+}
+
 
 .footer {
     background: var(--bg);
@@ -211,5 +378,114 @@ background-color: rgb(71, 1, 1);
     }
     header nav ul li {
         display: none;
+    }
+
+}
+
+@media (max-width:768px) {
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .content h3 {
+        font-size: 4.5rem;
+    }
+    .home .content p {
+        font-size: 1.5rem;
+    }
+    .basic .row .image img{
+        max-width: 350px;
+    }
+}
+
+@media (max-width:425px) {
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .content {
+        margin-right: 3rem;
+    }
+    .home .content h3 {
+        font-size: 4.5rem;
+    }
+    .home .content p {
+        font-size: 1.5rem;
+    }
+
+    .basic .row .content {
+        width: 200%;
+        margin: 1.5rem;
+        text-align: justify;
+    }
+    .handbook .hand .content {
+        width: 200%;
+        margin: 1.5rem;
+        text-align: justify;
+    }
+    .archi .arc .content {
+        width: 200%;
+        margin: 1.5rem;
+        text-align: justify;
+    }
+    .contact .cont .map {
+        height: 600px;
+        width: 50%;
+        object-fit: cover;
+        margin-right: 50%;
+    }
+    .footer {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width:375px) {
+    .basic .row img {
+        width: 305px;
+    }
+    .basic .row .content {
+        width: 200%;
+        margin: 1.5rem;
+        text-align: justify;
+    }
+    .handbook .hand img {
+        width: 305px;
+    }
+    .handbook .hand .content {
+        width: 200%;
+        margin: 1.5rem;
+        text-align: justify;
+    }
+    .archi .arc img {
+        width: 305px;
+        height: auto;
+    }
+    .archi .arc .content {
+        width: 200%;
+        margin: 1.5rem;
+        text-align: justify;
+    }
+    .contact .cont .map {
+        height: 600px;
+        width: 50%;
+        object-fit: cover;
+        margin-right: 50%;
+    }
+    .footer {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width:320px) {
+    .basic .row img {
+        width: 255px;
+    }
+    .handbook .hand img {
+        width: 255px;
+    }
+    .archi .arc img {
+        width: 255px;
     }
 }
