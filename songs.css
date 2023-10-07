@@ -195,14 +195,15 @@ nav ul li:hover > ul { display: block; }
 .text-2 {
     margin-left: 12rem;
 }
-.container .footer {
+.footer {
     background: var(--bg);
     text-align: center;
+    width: 100%;
 }
-.container .footer .share a{
+.footer .share a{
     margin-right: 2rem;
 }
-.container .footer .share a {
+.footer .share a {
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -210,10 +211,10 @@ nav ul li:hover > ul { display: block; }
     color: #fff;
     margin: 0.3rem;
 }
-.container .footer .links {
+.footer .links {
     margin-bottom: 1.5rem;
 }
-.container .footer .links a {
+.footer .links a {
     margin-right: 0.5rem;
     text-decoration: none;
     color: #fff;
@@ -223,114 +224,77 @@ nav ul li:hover > ul { display: block; }
     padding: 0.5rem 1rem;
     transition: color 0.3s linear;
 }
-.container .footer .links a:hover {
+.footer .links a:hover {
     color: goldenrod;
     background-color: rgb(71, 1, 1);
 }
-.container .footer .credit {
+.footer .credit {
     font-size: 1rem;
     color: #fff;
 }
-.container .footer .credit span {
+.footer .credit span {
     color: #cfae81;
 }
-
-@media screen and (min-width: 2056px) {
-    header nav ul li a {
-        padding: 20px;
-        font-size: 1.8rem;
-    }
-    .container .vid .title h3 {
-        font-size: 2rem;
-    }
-    .heading {
-        font-size: 7rem;
-    }
-    .container .main-video iframe {
-        height: 40rem;
-        width: 100%;
-    }
-    .container .main-video .title h3 {
-        font-size: 3.6rem;
-    }
-    .container .main-video .title p {
-        font-size: 2rem;
-    }
-    .container .main-video .title .text {
-        margin-top: 2rem;
-    }
-    .container .main-video .title .text .text-1 {
-        margin-right: 15rem;
-    }
+.menu-btn {
+    display: none;
 }
 
-@media screen and (max-width: 1440px) {
-    header nav ul li a {
-        padding: 5px;
+@media (max-width:991px){
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
     }
-    .container .video-list {
-        overflow-x: hidden;
-    }
-    .container .video-list .vid .title h3{
-        font-size: 1rem;
-        margin-right: 4rem;
-    }
-}
 
-@media screen and (max-width: 967px) {
-    header nav ul li a {
-        font-size: 1rem;
-        margin-right: 1px;
+    html {
+        font-size: 85%;
     }
-    header .logo img {
-        height: 80px;
-        width: auto;
-        margin-left: 3px;
-    }
-    header nav ul li {
-        padding: 1px;
-    }
-    .container .main-video .title .text .text-1 {
-        margin-right: 3rem;
+    header {
+        padding: 1.5rem 2rem;
     }
 }
-@media screen and (max-width: 838px){
-    header nav ul li a {
-        font-size: 1rem;
+@media (max-width:1176px) {
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
     }
-    header .logo img {
-        height: 60px;
-        width: auto;
-        margin-left: 3px;
+
+    .menu-btn {
+        display: inline-block;
     }
-    header nav ul li {
-        padding: 0.5px;
-    }
-    .container .video-list .vid .title h3{
-        font-size: 1rem;
-        margin-right: 5rem;
-    }
-    .container .video-list .vid iframe{
-        width: 70px;
-        height: 100px;
-    }
-    .container .main-video .title h3 {
-        font-size: 1.8rem;
-    }
-    .container .main-video .title p {
-        font-size: 1.4rem;
-    }
-    .heading {
-        margin-top: 8rem;
+    .menu-btn ul li {
         font-size: 3rem;
     }
-    .main-video {
-        width: 30rem;
-    }
-    .text-2 {
-        margin-left: 8rem;
+    header nav ul li {
+        display: none;
     }
 }
+@media (max-width:768px) {
+    .heading {
+        margin-top: 13rem;
+    }
+    .container {
+        display: block;
+    }
+    .main-video {
+        margin-bottom: 3rem;
+    }
+}
+@media (max-width:425px) {
+    .text-2 {
+        margin-left: 5rem;
+    }
+}
+@media (max-width:375px) {
+    .container .text {
+        display: block;
+        text-align: justify;
+    }
+    .text-2 {
+        margin-left: 0;
+        margin-top: 2.5rem;
 
-
+    }
+}
 
