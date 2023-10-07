@@ -238,6 +238,7 @@ nav ul li:hover > ul { display: block; }
     }
 }
 @media (max-width:768px) {
+    
     .video iframe {
         width: 270px;
         height: 120px;
