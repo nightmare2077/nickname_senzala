@@ -189,6 +189,49 @@ nav ul li:hover > ul { display: block; }
     place-items: center;
     background: url(https://phonoteka.org/uploads/posts/2022-02/1643931089_6-phonoteka-org-p-oboi-na-rabochii-stol-serii-fon-6.jpg);
 }
+.menu-btn {
+    display: none;
+}
+@media (max-width:991px){
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    html {
+        font-size: 85%;
+    }
+    header {
+        padding: 1.5rem 2rem;
+    }
+}
+@media (max-width:1176px) {
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menu-btn {
+        display: inline-block;
+    }
+    .menu-btn ul li {
+        font-size: 3rem;
+    }
+    header nav ul li {
+        display: none;
+    }
+
+}
+@media (max-width:768px) {
+    .heading {
+        margin-top: 13rem;
+    }
+    #docs {
+        background: none;
+    }
+}
 @media screen and (max-width: 425px) {
 
     header nav ul li a {
@@ -204,5 +247,12 @@ nav ul li:hover > ul { display: block; }
     .book img {
         width: 80%;
     }
+    #docs {
+        background: none;
+    }
+    .footer .links {
+        display: none;
+    }
 
 }
+
