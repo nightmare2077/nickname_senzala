@@ -212,4 +212,42 @@ nav ul li:hover > ul { display: block; }
 .footer .credit span {
     color: #cfae81;
 }
+.menu-btn {
+    display: none;
+}
+@media (max-width:991px){
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    html {
+        font-size: 85%;
+    }
+    header {
+        padding: 1.5rem 2rem;
+    }
+}
+@media (max-width:1176px) {
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menu-btn {
+        display: inline-block;
+    }
+    .menu-btn ul li {
+        font-size: 3rem;
+    }
+    header nav ul li {
+        display: none;
+    }
+}
+@media (max-width:1024px) {
+
+}
+
 

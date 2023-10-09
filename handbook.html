@@ -12,24 +12,24 @@
 </head>
 <body>
 	<header id="header">
-		<a href="index.html" class="logo"><img style="height: 100px; width: auto; margin-left: 30px;" src="https://static.wixstatic.com/media/8e20e3_a7748ace886e4be7a8e491277ec17e36~mv2.png/v1/fill/w_138,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8e20e3_ce47282406f64a23a1014f7f70da3aef.png"></a>
-		<nav>
+		<a href="index.html" class="logo"><img src="https://static.wixstatic.com/media/8e20e3_a7748ace886e4be7a8e491277ec17e36~mv2.png/v1/fill/w_138,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8e20e3_ce47282406f64a23a1014f7f70da3aef.png"></a>
+		<nav class="navbar">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="#basic">Basic Info</a>
-					<ul>
-						<li><a style="margin-left: 0;" href="mestres.html">Mestres</a></li>
-						<li></li><a style="margin-left: 0;" href="slider.html">Cordas</a></li>
-						<li><a style="margin-left: 0;" href="history.html">History</a></li>
-					</ul>
+				<li><a href="basic.html">Basic Info</a>
+				    <ul>
+					    <li><a style="margin-left: 0;" href="mestres.html">Mestres</a></li>
+					    <li><a style="margin-left: 0;" href="slider.html">Cordas</a></li>
+					    <li><a style="margin-left: 0;" href="history.html">History</a></li>
+				    </ul>
 				</li>
-				<li><a href="#handbook">Handbook</a>
+				<li><a href="handbook.html">Handbook</a>
 					<ul>
 						<li><a style="margin-left: 0;" href="instruments.html">Instruments</a></li>
 						<li><a style="margin-left: 0;" href="list_r.html">Rhythms</a></li>
 						<li><a style="margin-left: 0;" href="songs.html">Songs</a></li>
 						<li><a style="margin-left: 0;" href="list_move.html">Movements</a></li>
-                        <li><a style="margin-left: 0;" href="Movements.html">Maculele</a></li>
+						<li><a style="margin-left: 0;" href="Movements.html">Maculele</a></li>
                         <li><a style="margin-left: 0;" href="Movements.html">Samba de roda</a></li>
 					</ul>
 				</li>
@@ -41,63 +41,89 @@
 						<li><a style="margin-left: 0;" href="media.html">Media</a></li>
 					</ul>
 				</li>
-			    <li><a href="#">About us</a></li>
-			    <li><a style="margin-right: 3rem;" href="contacts.html">Contacts</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="contacts.html">Contacts</a></li>
+		        <li class="menu-btn"><a style="border-bottom: none;"  href="#"><img style="height: 45px; width: auto;" src="https://cdn-icons-png.flaticon.com/512/7543/7543138.png"></a>
+					<ul>
+						<li><a style="margin-left: 0;" href="index.html">Home</a></li>
+						<li><a style="margin-left: 0;" href="#basic">Basic Info</a></li>
+						<li><a style="margin-left: 0;" href="#handbook">Handbook</a></li>
+						<li><a style="margin-left: 0;" href="#archi">Archives</a></li>
+						<li><a style="margin-left: 0;" href="#">About us</a></li>
+						<li><a style="margin-left: 0;" href="#contact">Contacts</a></li>
+					</ul>
+				</li>
 			</ul>
 		</nav>
+
 	</header>
     
-    <section class="basic" id="basic">
-        <h1 class="heading"><span>Handbook</span></h1>
+	<section class="basic" id="basic">
+		<heading></heading>
+		<div class="row">
+			<div class="image"><img src="https://i.pinimg.com/564x/44/49/41/444941996676154354c4fd4fa67c0127.jpg"></div>
+			<div class="content">
+				<h3>Instruments</h3>
+				<p>In this section, you will be able to find all the musical instruments currently invented and successfully used in capoeira, as well as receive their brief description and basic function in the roda.</p>
+				<a href="instruments.html" class="btn">Learn more...</a>
+			</div>
+		</div>
+	</section>
 
-            <div class="box" style="margin-bottom: 10rem;">
-                <img style="width: 50%; height: auto;" src="https://cdn1.vectorstock.com/i/1000x1000/33/00/brazilian-capoeira-music-instruments-vector-1553300.jpg">
-				<div class="info">
-					<h3>Instruments</h3>
-					<a href="instruments.html" class="btn">Learn more...</a>
-				</div>
-            </div>
+	<section class="basic" id="basic">
+		<div class="row">
+			<div class="image"><img src="images/rhythms.jpg"></div>
+			<div class="content">
+				<h3>Rhythms</h3>
+				<p>This section allows you to familiarize yourself with all the existing rhythms in capoeira and learn to master them by improving your technique through special video tutorials, some of which were recorded for the Senzala group by Master Rui in 2006.</p>
+				<a href="list_r.html" class="btn">Learn more...</a>
+			</div>
+		</div>
+	</section>
 
-            <div class="box" style="margin-bottom: 10rem;">
-				<div class="info">
-					<h3>Rhytms</h3>
-					<a href="list_r.html" class="btn">Learn more...</a>
-				</div>
-                <img style="width: 50%; height: auto;" src="https://i.pinimg.com/564x/0d/85/25/0d8525320be5d67033a005c4c8cd0d72.jpg">
-            </div>
+	<section class="basic" id="basic">
+		<div class="row">
+			<div class="image"><img src="https://i.pinimg.com/564x/b3/42/6a/b3426af9c32ebfd452919e9b8a7c6327.jpg"></div>
+			<div class="content">
+				<h3>Songs</h3>
+				<p>Here you will be able to find capoeira songs by the Senzala group, their lyrics and translations, as well as video recordings of their performances.</p>
+				<a href="songs.html" class="btn">Learn more...</a>
+			</div>
+		</div>
+	</section>
 
-            <div class="box" style="margin-bottom: 5rem;">
-                <img style="width: 35rem; height: 50rem;" src="https://i.pinimg.com/564x/1d/ea/5e/1dea5ee9b82bfaf9c984ec1d6ad0f159.jpg">
-				<div class="info">
-					<h3>Songs</h3>
-					<a href="songs.html" class="btn">Learn more...</a>
-				</div>
-            </div>
+	<section class="basic" id="basic">
+		<div class="row">
+			<div class="image"><img src="https://i.pinimg.com/564x/48/10/7f/48107f4686a8da9e598c8624d379346f.jpg"></div>
+			<div class="content">
+				<h3>Movements</h3>
+				<p>This section allows you to view the names of all movements in capoeira, as well as the correct technique for performing them, as taught by the trainers of the Senzala group in Ukraine.</p>
+				<a href="list_move.html" class="btn">Learn more...</a>
+			</div>
+		</div>
+	</section>
 
-            <div class="box" style="margin-bottom: 5rem;">
-				<div class="info">
-					<h3>Movements</h3>
-					<a href="#" class="btn">Learn more...</a>
-				</div>
-                <img style="width: 35rem; height: 50rem;" src="https://i.pinimg.com/564x/8a/08/52/8a08529e011255812887ced44a380cb2.jpg">
-            </div>
+	<section class="basic" id="basic">
+		<div class="row">
+			<div class="image"><img src="https://i.pinimg.com/564x/a5/13/4a/a5134a4c4bda9c8e3e6c9161d5b261da.jpg"></div>
+			<div class="content">
+				<h3>Maculele</h3>
+				<p>Maculele is an important and beautiful part of capoeira. Here you can find tutorials on all the movements and their descriptions, which will allow you to better understand this dance and delve deeper into the art of capoeira.</p>
+				<a href="#" class="btn">Learn more...</a>
+			</div>
+		</div>
+	</section>
 
-            <div class="box" style="margin-bottom: 5rem;">
-                <img style="width: 50%; height: auto;" src="https://i.pinimg.com/564x/16/d2/52/16d252b361192c9f68b07cf944e7c863.jpg">
-				<div class="info">
-					<h3>Maculele</h3>
-					<a href="#" class="btn">Learn more...</a>
-				</div>
-            </div>
-
-            <div class="box" style="margin-bottom: 5rem;">
-				<div class="info">
-					<h3>Samba de roda</h3>
-					<a href="#" class="btn">Learn more...</a>
-				</div>
-                <img style="width: 50%; height: auto;" src="https://i.pinimg.com/564x/eb/01/97/eb0197d2dc8f8f016a3ca24e2e59126c.jpg">
-            </div>
-    </section>   
+	<section class="basic" id="basic">
+		<div class="row">
+			<div class="image"><img src="https://i.pinimg.com/564x/eb/01/97/eb0197d2dc8f8f016a3ca24e2e59126c.jpg"></div>
+			<div class="content">
+				<h3>Samba de roda</h3>
+				<p>Samba de Roda is a traditional Brazilian dance and music style closely associated with capoeira. Here you can learn it, using special videos from our group Senzala.</p>
+				<a href="#" class="btn">Learn more...</a>
+			</div>
+		</div>
+	</section>
 	
          <!--footer section starts-->
 
