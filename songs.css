@@ -285,6 +285,9 @@ nav ul li:hover > ul { display: block; }
     .text-2 {
         margin-left: 5rem;
     }
+    .heading {
+        font-size: 3.2rem;
+    }
 }
 @media (max-width:375px) {
     .container .text {

@@ -231,5 +231,28 @@ nav ul li:hover > ul { display: block; }
         text-align: left;
         margin-bottom: 3rem;
     }
-
+}
+@media (max-width:425px) {
+    .home .find h3{
+        font-size: 4rem;
+    }
+    .content_2 p {
+        margin-right: 2rem;
+        font-size: 1.5rem;
+    }
+    .footer .links {
+        display: none;
+    }
+}
+@media (max-width:320px) {
+    .home .find h3{
+        font-size: 3rem;
+    }
+    .content_2 p {
+        margin-right: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .footer .links {
+        display: none;
+    }
 }
