@@ -167,6 +167,9 @@ nav ul li:hover > ul { display: block; }
     height: 400px;
 }
 
+.content b {
+    color: #be9965;
+}
 
 
 .heading {
