@@ -114,6 +114,7 @@ nav ul li:hover > ul { display: block; }
     width: 100%;
     object-fit: cover;
     margin-right: 50%;
+    height: 600px;
 }
 .contact .cont form {
     flex: 1 1 45rem;
@@ -205,4 +206,84 @@ nav ul li:hover > ul { display: block; }
 }
 .footer .credit span {
     color: #cfae81;
+}
+.logo img {
+    height: 100px; 
+    width: auto; 
+    margin-left: 30px;
+}
+
+.menu-btn {
+    display: none;
+}
+@media (max-width:991px){
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    html {
+        font-size: 85%;
+    }
+    header {
+        padding: 1.5rem 2rem;
+    }
+}
+@media (max-width:1176px) {
+    .home {
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .menu-btn {
+        display: inline-block;
+    }
+    .menu-btn ul li {
+        font-size: 3rem;
+    }
+    header nav ul li {
+        display: none;
+    }
+    .heading {
+        margin-top: 13rem;
+    }
+
+}
+@media (max-width:425px) {
+    .contact .cont {
+        background-color: var(--bg);
+    }
+    .contact .cont {
+        background: var(--bg);
+    }
+
+    .contact .cont .map {
+        height: 600px;
+        width: 50%;
+        object-fit: cover;
+        margin-right: 50%;
+    }
+    .footer .links {
+        display: none;
+    }
+}
+@media (max-width:375px) {
+    .contact .cont {
+        background-color: var(--bg);
+    }
+    .contact .cont .map {
+        height: 600px;
+        width: 60%;
+        object-fit: cover;
+        margin-right: 80%;
+    }
+    .contact .cont form {
+        flex: 1 1 45rem;
+        padding: 5rem 2rem;
+        text-align: center;
+        position: absolute;
+        margin-left: 65%;
+    }
 }

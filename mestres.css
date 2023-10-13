@@ -1,5 +1,5 @@
 body {
-    height: 3000vh;
+    height: auto;
     background: url(https://phonoteka.org/uploads/posts/2022-02/1643931089_6-phonoteka-org-p-oboi-na-rabochii-stol-serii-fon-6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -399,5 +399,42 @@ img {
     }
     .box_m {
         width: 28rem;
+    }
+    .footer {
+        width: 110%;
+    }
+    .footer .links {
+        display: none;
+    }
+}
+@media (max-width:375px) {
+    .heading {
+        margin-left: 4rem;
+        font-size: 3.5rem;
+    }
+    .info p {
+        display: none;
+    }
+    .box_m {
+        width: 30rem;
+    }
+    .footer {
+        width: 110%;
+    }
+    .footer .links {
+        display: none;
+    }
+    .box_m {
+        margin-left: 0.3rem;
+        margin-right: -5.5rem;
+    }
+}
+@media (max-width:375px) {
+    .box_m {
+        margin-left: 0.3rem;
+        margin-right: -9rem;
+    }
+    .footer {
+        width: 130%;
     }
 }
