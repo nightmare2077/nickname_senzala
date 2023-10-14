@@ -415,8 +415,28 @@ img {
     .info p {
         display: none;
     }
+    .footer {
+        width: 110%;
+    }
+    .footer .links {
+        display: none;
+    }
     .box_m {
-        width: 30rem;
+        margin-left: 0.3rem;
+        margin-right: -4.5rem;
+        width: 29rem;
+    }
+    .mestres {
+        margin-left: 0.5rem;
+    }
+}
+@media (max-width:320px) {
+    .heading {
+        margin-left: 1rem;
+        font-size: 3.5rem;
+    }
+    .info p {
+        display: none;
     }
     .footer {
         width: 110%;
@@ -426,15 +446,21 @@ img {
     }
     .box_m {
         margin-left: 0.3rem;
-        margin-right: -5.5rem;
+        margin-right: -4.5rem;
+        width: 25.4rem;
     }
-}
-@media (max-width:375px) {
-    .box_m {
-        margin-left: 0.3rem;
-        margin-right: -9rem;
+    .mestres {
+        margin-left: 0.5rem;
     }
-    .footer {
-        width: 130%;
+    .btn {
+        background-color: darkred;
+        display: block;
+        width: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        color: #eee;
+        font-size: 1rem;
+        text-decoration: none;
+        text-align: left;
+        transition: color 0.3s linear;
     }
 }

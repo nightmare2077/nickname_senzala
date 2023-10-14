@@ -594,7 +594,7 @@ header .navbar ul li a:hover {
         font-size: 3.8rem;
     }
     .basic .row {
-        margin-left: 5.5rem;
+        margin-left: 5rem;
         width: fit-content;     
     }
     .basic .row img {
@@ -612,7 +612,7 @@ header .navbar ul li a:hover {
         width: 305px;
     }
     .handbook .hand {
-        margin-left: 5.5rem;
+        margin-left: 5rem;
         width: fit-content;
     }
     .handbook .hand .content {
@@ -628,7 +628,7 @@ header .navbar ul li a:hover {
         height: auto;
     }
     .archi .arc {
-        margin-left: 5.5rem;
+        margin-left: 5rem;
         width: fit-content;
     }
     .archi .arc .content p {
@@ -658,20 +658,8 @@ header .navbar ul li a:hover {
     .footer {
         margin-top: 3rem;
         margin-bottom: 2rem;
-        margin-left: 5.5rem;
+        margin-left: 5rem;
     }
-}
-@media (max-width:320px) {
-    .basic .row img {
-        width: 255px;
-    }
-    .handbook .hand img {
-        width: 255px;
-    }
-    .archi .arc img {
-        width: 255px;
-    }
-
 }
 
 
